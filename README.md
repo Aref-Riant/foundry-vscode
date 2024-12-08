@@ -16,3 +16,6 @@ docker build -t foundry-vscode:latest .
 ## Password:
 `docker exec foundry-vscode cat /home/coder/.config/code-server/config.yaml | grep password`
 
+
+** ToDo:
+* make image smaller
