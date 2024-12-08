@@ -11,7 +11,7 @@ docker build -t foundry-vscode:latest .
 `docker pull docker.io/arefkh/foundry-vscode:latest`
 
 ## Run:
-`docker run --rm -it -p 8080:8080 --name foundry-vscode foundry-vscode:latest`
+`docker run --rm -it -p 8080:8080 --name foundry-vscode arefkh/foundry-vscode:latest`
 
 ## Password:
 `docker exec foundry-vscode cat /home/coder/.config/code-server/config.yaml | grep password`
