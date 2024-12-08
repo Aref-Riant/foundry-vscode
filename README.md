@@ -3,7 +3,7 @@ VS Code and Foundry on single Docker image
 
 # Build:
 `docker build -t foundry-vscode:latest .`
-* Approximate image dize: 3GB
+* Approximate image size: 3GB
 
 # Use:
 
